@@ -1265,21 +1265,21 @@ template {
   -webkit-background-clip: text;
   color: transparent;
   background-image: linear-gradient(#9356DC, #ff79DA);
-  transform: translateX(0);
+  transform: translate(0);
   transition: all 1s;
   opacity: 0;
 }
 .restaurant__card:hover .fa-solid, .restaurant__menu__content:hover .fa-solid {
-  transform: translateX(1);
+  transform: translate(1);
   opacity: 1;
 }
 .restaurant__card .fa-light, .restaurant__menu__content .fa-light {
-  transform: translateX(1);
+  transform: translate(1);
   transition: all 1s;
   opacity: 1;
 }
 .restaurant__card:hover .fa-light, .restaurant__menu__content:hover .fa-light {
-  transform: translateX(0);
+  transform: translate(0);
   opacity: 0;
 }
 
